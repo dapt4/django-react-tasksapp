@@ -12,14 +12,11 @@ const List = () => {
       method: "DELETE",
     });
     console.log(await res.json());
-    setData([]);
+    getData();
   };
   useEffect(() => {
     getData();
   }, []);
-  useEffect(() => {
-    getData();
-  }, [data]);
   return (
     <>
       {data &&
