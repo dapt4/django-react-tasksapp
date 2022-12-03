@@ -1,5 +1,7 @@
 # django-react-tasksapp
 
+![image](https://user-images.githubusercontent.com/67972962/205440476-c952366c-54a3-4213-8328-b06088475e09.png)
+
 first create your virtualenv
 
 `$ cd server`
